@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RowItem component render Snapshot test 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColorL": "red",
+      "flex": 1,
+      "padding": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flexDirection": "column",
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": "https://picsum.photos/id/237/200/300",
+        }
+      }
+      style={
+        Object {
+          "aspectRatio": 1,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 14,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      SRK
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "gray",
+          "fontSize": 10,
+        }
+      }
+    >
+      Sonu
+    </Text>
+  </View>
+</View>
+`;

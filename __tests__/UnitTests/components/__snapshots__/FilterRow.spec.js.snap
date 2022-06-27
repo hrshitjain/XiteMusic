@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterRow component render Snapshot test 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "padding": 10,
+    }
+  }
+>
+  <View
+    accessibilityRole="checkbox"
+    accessibilityState={
+      Object {
+        "checked": false,
+        "disabled": false,
+      }
+    }
+    accessibilityValue={
+      Object {
+        "text": "off",
+      }
+    }
+    accessible={true}
+    pointerEvents="auto"
+    testID="Filter.Check"
+  >
+    <RNCCheckbox
+      forwardedRef={null}
+      onChange={[Function]}
+      onValueChange={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "height": 32,
+            "width": 32,
+          },
+          Object {
+            "margin": 10,
+          },
+        ]
+      }
+      value={false}
+    />
+  </View>
+  <Text
+    style={
+      Object {
+        "color": "white",
+        "fontSize": 14,
+        "fontWeight": "bold",
+        "marginLeft": 10,
+      }
+    }
+  >
+    Pop
+  </Text>
+</View>
+`;
